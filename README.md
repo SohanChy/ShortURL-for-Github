@@ -1,4 +1,4 @@
-# ShortUrl-Auto-Redirector-for-Github
+# ShortUrl-for-Github
 A simple JS script to make short URL like link redirection possible on websites hosted on github. 
 
 When sharing links to friends or something a personal shorturl is easier to remember as well.  
