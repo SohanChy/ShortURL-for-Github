@@ -13,4 +13,3 @@ var redirectorDB = {
     "blog": 'https://blog.sohanchy.com',
     "omaigawdgif": 'https://brafootball.files.wordpress.com/2013/12/bwuhhh-gif-1.gif?w=830'
 };
-
