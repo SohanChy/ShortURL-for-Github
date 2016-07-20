@@ -2,49 +2,23 @@
 title: This is a tricky situation...
 permalink: /404.html
 ---
-<html>
+<html lang="en">
 <head>
-<link rel="canonical" href="http://www.sohanchy.com" />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="redirectorDB.js"></script>
+    <script src="redirector.js"></script>
 </head>
-<script src='redirectorDB.js'></script>
-
-<script>
-
-var myLoc = window.location.href;
-
-
-/*
-Extracting filename code from:
-http://stackoverflow.com/questions/423376/how-to-get-the-file-name-from-a-full-path-using-javascript
-*/
-
-var requestWas = myLoc.replace(/^.*[\\\/]/, '');
-requestWas = requestWas.toLowerCase();
-
-console.log(requestWas);
-console.log(redirectorDB.hasOwnProperty(requestWas));
-
-if(redirectorDB.hasOwnProperty(requestWas)){
-    
-    console.log(redirectorDB[requestWas]);
-    
-    window.location.replace(redirectorDB[requestWas]);
-    
-    }
-    else {
-    window.location.replace('http://sohanchy.com');
-    }
-    
-
-</script>
 <body>
 <div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. (404 error)</h1>
-  <a href="http://sohanchy.com"><h1>Click here to go back to Sohanchy.com</h1></a>
-  <br/>
-
+    <h1>Whoops, this page doesn't exist.</h1>
+    <h1>Move along. (404 error)</h1>
+    <a href="/">Get back to Home</a>
 </div>
 </body>
 </html>
-
+<html>
+<head>
