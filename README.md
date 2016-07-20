@@ -24,6 +24,6 @@ redirects to =>
  - Just one minor drawback, you can not  use the default github 404 page,
    you have to either have a fallback website or use a custom 404 page.
 
-Created by: [Sohan Chowdhury](http://sohanchy.com)
-
-
+####Created by: [Sohan Chowdhury](http://sohanchy.com)
+####Contributors:
+ - [thesabbir](https://github.com/thesabbir) - [Refactoring and cleanup](https://github.com/SohanChy/ShortURL-for-Github/pull/1)
